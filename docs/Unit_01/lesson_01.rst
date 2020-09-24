@@ -13,6 +13,8 @@ Nodes covered in this lesson: ``Scalar Math, Vector In, Number, Number Range, Vi
 
 Let's make a Plane, we will need 4 vectors and we'll define them using math. I'll use the Trigonometric concept of the ``unit-circle`` to get coordinates which are ``0.5 PI`` appart. 
 
+just editing this to test out
+
 .. image:: https://cloud.githubusercontent.com/assets/619340/5426922/20290ef0-837b-11e4-9863-8a0a586aed7d.png
 
 We carefully pick points on the unit-circle so that when we connect them via edges it results in a square. To begin we want to create a series of numbers, to represent those points on the unit-circle. Essentially this sequence is ``[0.25 pi, 0.75 pi, 1.25 pi, 1.75 pi]``. Because these aren't whole numbers (``Integers``), but so called ``Floats``, we use a ``Number Range`` Node configured to output ``Floats``.
